@@ -1,3 +1,10 @@
+CMPUT 410 Winter 2015
+Lab 1
+Glenn Meyer
+gmeyer1
+
+====================
+
 curl --request POST 'http://hex19.com/'
 
 RESULTS:

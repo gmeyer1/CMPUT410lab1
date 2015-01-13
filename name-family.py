@@ -1,3 +1,8 @@
+# CMPUT 410 Winter 2015
+# Lab 1
+# Glenn Meyer
+# gmeyer1
+
 class Student:
 	courseMarks={}
 	name=""
