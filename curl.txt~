@@ -1,0 +1,1833 @@
+curl --request POST 'http://hex19.com/'
+
+RESULTS:
+Forbidden.
+
+curl --request DELETE 'http://hex19.com/'
+
+RESULTS:
+<html><head><title>Apache Tomcat/6.0.20 - Error report</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>HTTP Status 405 - Http method DELETE is not supported by this URL</h1><HR size="1" noshade="noshade"><p><b>type</b> Status report</p><p><b>message</b> <u>Http method DELETE is not supported by this URL</u></p><p><b>description</b> <u>The specified HTTP method is not allowed for the requested resource (Http method DELETE is not supported by this URL).</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/6.0.20</h3></body></html>
+
+curl --request PUT 'http://hex19.com/'
+
+RESULTS:
+<html><head><title>Apache Tomcat/6.0.20 - Error report</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>HTTP Status 405 - HTTP method PUT is not supported by this URL</h1><HR size="1" noshade="noshade"><p><b>type</b> Status report</p><p><b>message</b> <u>HTTP method PUT is not supported by this URL</u></p><p><b>description</b> <u>The specified HTTP method is not allowed for the requested resource (HTTP method PUT is not supported by this URL).</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/6.0.20</h3></body></html>
+
+curl --request GET 'http://hex19.com/'
+
+RESULTS:
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/> 
+  
+   <meta name="Robots" content="index,follow" />  
+   <meta name="description" content="Hex19 is a Canadian blog celebrating all things geek. News stories and articles on movies, video games, board games, and TV shows." /> 
+  
+  <!-- tgweekly -->
+
+  <link rel="shortcut icon" href="/favicon.png" type="image/png" />
+
+  <link id="primaryStylesheet" rel="stylesheet" type="text/css" href="/display/common.css?styleId=1616808&amp;RK=1345076821027&amp;CE=75"/>
+  
+  <link id="slideShowStylesheet" rel="stylesheet" type="text/css" href="/universal/styles/squarespace-gallery-slideshow.css?CE=75"/>
+  
+  
+    <link rel="alternate" type="application/atom+xml" title="ATOM" href="http://hex19.com/blog/atom.xml" />
+  
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="http://hex19.com/blog/rss.xml" />
+  
+    <link rel="alternate" type="application/rdf+xml" title="RDF" href="http://hex19.com/blog/rdf.xml" />
+  
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://hex19.com/blog/rsd.xml" />
+  
+  
+  <!-- Google Web Fonts -->
+  <script type="text/javascript">
+    	WebFontConfig = {"google": {"families": ["Spinnaker:400"]}};
+  
+   
+    (function() {
+      var wf = document.createElement('script');
+      wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+          '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+      wf.type = 'text/javascript';
+      wf.async = 'true';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(wf, s);
+    })();
+  </script>
+
+  <script type="text/javascript" src="/universal/yui/yahoo-dom-event/yahoo-dom-event.js?CE=75"></script>
+<script type="text/javascript" src="/universal/yui/connection/connection_core-min.js?CE=75"></script>
+<script type="text/javascript" src="/universal/yui/json/json-min.js?CE=75"></script>
+<script type="text/javascript" src="/universal/yui/animation/animation-min.js?CE=75"></script>
+<script type="text/javascript" src="/universal/yui/selector/selector.js?CE=75"></script>
+<script type="text/javascript" src="/universal/yui/element/element.js?CE=75"></script>
+<script type="text/javascript" src="/universal/scripts/global.js?CE=75"></script>
+<script type="text/javascript" src="/universal/scripts/lightbox.js?CE=75"></script>
+<script type="text/javascript" src="/universal/scripts/api.js?CE=75"></script>
+<script type="text/javascript" src="/universal/scripts/base64.js?CE=75"></script>
+<script type="text/javascript" src="/universal/scripts/census.js?CE=75"></script>
+<script type="text/javascript" src="/universal/yui/yahoo/yahoo-min.js?CE=75"></script>
+<script type="text/javascript" src="/universal/yui/event/event-min.js?CE=75"></script>
+<script type="text/javascript" src="/universal/yui/event-mouseenter/event-mouseenter-min.js?CE=75"></script>
+<script type="text/javascript" src="/universal/yui/element/element-min.js?CE=75"></script>
+<script type="text/javascript" src="/universal/scripts/social.js?CE=75"></script>
+<script type="text/javascript" src="/universal/scripts/datefmt.js?CE=75"></script>
+<script type="text/javascript" src="/universal/scripts/yui2-yui3-bridge.js?CE=75"></script>
+<script type="text/javascript" src="/universal/scripts/squarespace-gallery-slideshow.js?CE=75"></script>
+
+
+  <script type="text/javascript">
+  // <![CDATA[
+
+    Squarespace.Constants.SS_AUTHKEY = encodeURIComponent("");
+    Squarespace.Constants.WEBSITE_TITLE =  "Hex19 | Celebrating All Things Geek"; 
+    
+     Squarespace.Constants.CURRENT_MODULE_ID = "9638144"; 
+    
+    
+    
+    Squarespace.Constants.ADMINISTRATION_UI =  false; 
+    
+    
+    
+    Squarespace.Constants.CORE_APPLICATION_DOMAIN = "squarespace.com";
+    Squarespace.Constants.CORE_V6_APPLICATION_DOMAIN = "squarespace.com";
+    Squarespace.Constants.V5_FRONTSITE = "http://five.squarespace.com";
+    Squarespace.Constants.WEBSITE_ID = "366535";
+
+    
+
+    
+
+    
+
+  // ]]>
+  </script>
+
+      <title>Geekblog - Hex19 | Celebrating All Things Geek</title>
+    <meta property="og:title" content="Geekblog - Hex19 | Celebrating All Things Geek" /> 
+  
+
+  
+
+  
+
+  <!-- End Heading -->
+
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" ></script>
+
+<script type="text/javascript" src="http://serve.adscaped.com/i.js" ></script>
+<script type="text/javascript">
+$(document).ready(function() {
+g("ebb994ae16cd22e375ad8b0b49190866");
+});
+</script>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js">
+</script>
+<script type="text/javascript">
+$(function(){
+$(".journal-read-more-tag a").html("Read More...");
+});
+</script>
+<script type="text/javascript">
+$(function(){
+$("#modulePage3933138 .journal-read-more-tag a").html("Click here to listen...");
+});
+</script>
+
+<!-- Google Analytics -->
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-34085689-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+  <script type="text/javascript" src="/universal/scripts/cookie-min.js"></script>
+  <script type="text/javascript" src="/universal/scripts/eu-cookie-policy.js"></script>
+
+</head>
+
+<body  id="modulePage9638144"   >
+
+  <script type="text/javascript">
+  YAHOO.util.Event.onDOMReady(function() {
+    if (document.location.href.indexOf("SSLogoutOk=true") != -1) {
+      new Squarespace.FixedPositionTip("Logout Successful", "You have been successfully logged out.", { xMargin: 15, yMargin: 15, icon: "/universal/images/helptip-info.png", orientation: "upper-right", viewportFixed: true, autoHide: 1800 }).show();
+    }
+  });
+</script>
+
+    
+
+  <script type="text/javascript">
+    YAHOO.util.Event.onDOMReady(function() { new Squarespace.Census.hit(); } );
+  </script>
+
+  <script type="text/javascript">
+    YAHOO.util.Event.addListener(document, "keyup", function (e) { if (!e) { e = event; } if (e.keyCode == 27) { document.location.href = "/display/Login?returnUrl=%2F"; } });
+  </script>
+
+
+
+
+  
+
+  <div id="canvasWrapper"><div id="canvas">
+  
+      
+    <div id="headerButtonsWrapper">
+<div id="headerButtons">
+<div class="headerButton">
+ <a href="/blog/category/podcasts">Podcasts</a>
+</div>
+<div class="headerButton">
+ <a href="/blog/category/card-games">Card Games</a>
+</div>
+<div class="headerButton">
+ <a href="/blog/category/board-games">Board Games</a>
+</div>
+<div class="headerButton">
+ <a href="/blog/category/web">Web</a>
+</div>
+<div class="headerButton">
+ <a href="/blog/category/technology">Tech</a>
+</div>
+<div class="headerButton">
+ <a href="/blog/category/movies">Movies</a>
+</div>
+<div class="headerButton">
+ <a href="/blog/category/tv-shows">TV Shows</a>
+</div>
+<div class="headerButton">
+ <a href="/blog/category/video-games">Video Games</a>
+</div>
+<div class="headerButton">
+ <a href="/blog/category/Canada">Canada</a>
+</div>
+</div>
+</div>
+  
+
+  <div id="pageHeaderWrapper"><div id="pageHeader">
+
+      <div id="navigationTop"><div id="navigationTop-sectionContent1903179" class="horizontalNavigationBar"><ul class="content-navigation">
+    
+  <li class="module active-module  " id="navigationTop-moduleContentWrapper9638144">
+
+    <div id="navigationTop-moduleContent9638144">
+
+              <a id="navigationTop-moduleLink9638144" class=" " href="/" ><span>Blog</span></a>
+      
+
+      
+
+    </div>
+
+  </li>
+
+
+  <li class="module   " id="navigationTop-moduleContentWrapper3933138">
+
+    <div id="navigationTop-moduleContent3933138">
+
+              <a id="navigationTop-moduleLink3933138" class=" " href="/hex19/" ><span>Geekcast</span></a>
+      
+
+      
+
+    </div>
+
+  </li>
+
+
+  <li class="module   " id="navigationTop-moduleContentWrapper16146135">
+
+    <div id="navigationTop-moduleContent16146135">
+
+              <a id="navigationTop-moduleLink16146135" class=" " href="/blog/category/news" ><span>News</span></a>
+      
+
+      
+
+    </div>
+
+  </li>
+
+
+  <li class="module   " id="navigationTop-moduleContentWrapper16146165">
+
+    <div id="navigationTop-moduleContent16146165">
+
+              <a id="navigationTop-moduleLink16146165" class=" " href="/blog/category/reviews" ><span>Reviews</span></a>
+      
+
+      
+
+    </div>
+
+  </li>
+
+
+  <li class="module   " id="navigationTop-moduleContentWrapper16146139">
+
+    <div id="navigationTop-moduleContent16146139">
+
+              <a id="navigationTop-moduleLink16146139" class=" " href="/blog/category/features" ><span>Features</span></a>
+      
+
+      
+
+    </div>
+
+  </li>
+
+
+  <li class="module   " id="navigationTop-moduleContentWrapper16148409">
+
+    <div id="navigationTop-moduleContent16148409">
+
+              <a id="navigationTop-moduleLink16148409" class=" " href="blog/category/geek-stuff" ><span>Geek Stuff</span></a>
+      
+
+      
+
+    </div>
+
+  </li>
+
+
+  <li class="module   " id="navigationTop-moduleContentWrapper16146170">
+
+    <div id="navigationTop-moduleContent16146170">
+
+              <a id="navigationTop-moduleLink16146170" class=" " href="/blog/category/videos" ><span>Videos</span></a>
+      
+
+      
+
+    </div>
+
+  </li>
+
+
+  <li class="module   " id="navigationTop-moduleContentWrapper16170282">
+
+    <div id="navigationTop-moduleContent16170282">
+
+              <a id="navigationTop-moduleLink16170282" class=" " href="/tgweekly" ><span>TableGamer</span></a>
+      
+
+      
+
+    </div>
+
+  </li>
+
+
+  <li class="module   " id="navigationTop-moduleContentWrapper16208239">
+
+    <div id="navigationTop-moduleContent16208239">
+
+              <a id="navigationTop-moduleLink16208239" class=" " href="/about/" ><span>About</span></a>
+      
+
+      
+
+    </div>
+
+  </li>
+
+
+  </ul><br class="clearer"/></div></div>
+
+    
+        
+      
+  
+      <div id="bannerAreaWrapper"><div id="bannerArea">
+
+        
+        <div id="bannerWrapper">
+          <a href="http://hex19.com/"><img id="banner" src="/storage/site-appearance/version6/Hex19_SimpleLogo.png" alt="Hex19 | Celebrating All Things Geek" title="Hex19 | Celebrating All Things Geek"/></a>
+        </div>  
+
+      
+      
+      </div></div>
+    
+    
+    
+
+      <div id="navigationBottom"><div id="navigationBottom-sectionContent1903179" class="horizontalNavigationBar"><ul class="content-navigation">
+    
+  <li class="module active-module  " id="navigationBottom-moduleContentWrapper9638144">
+
+    <div id="navigationBottom-moduleContent9638144">
+
+              <a id="navigationBottom-moduleLink9638144" class=" " href="/" ><span>Blog</span></a>
+      
+
+      
+
+    </div>
+
+  </li>
+
+
+  <li class="module   " id="navigationBottom-moduleContentWrapper3933138">
+
+    <div id="navigationBottom-moduleContent3933138">
+
+              <a id="navigationBottom-moduleLink3933138" class=" " href="/hex19/" ><span>Geekcast</span></a>
+      
+
+      
+
+    </div>
+
+  </li>
+
+
+  <li class="module   " id="navigationBottom-moduleContentWrapper16146135">
+
+    <div id="navigationBottom-moduleContent16146135">
+
+              <a id="navigationBottom-moduleLink16146135" class=" " href="/blog/category/news" ><span>News</span></a>
+      
+
+      
+
+    </div>
+
+  </li>
+
+
+  <li class="module   " id="navigationBottom-moduleContentWrapper16146165">
+
+    <div id="navigationBottom-moduleContent16146165">
+
+              <a id="navigationBottom-moduleLink16146165" class=" " href="/blog/category/reviews" ><span>Reviews</span></a>
+      
+
+      
+
+    </div>
+
+  </li>
+
+
+  <li class="module   " id="navigationBottom-moduleContentWrapper16146139">
+
+    <div id="navigationBottom-moduleContent16146139">
+
+              <a id="navigationBottom-moduleLink16146139" class=" " href="/blog/category/features" ><span>Features</span></a>
+      
+
+      
+
+    </div>
+
+  </li>
+
+
+  <li class="module   " id="navigationBottom-moduleContentWrapper16148409">
+
+    <div id="navigationBottom-moduleContent16148409">
+
+              <a id="navigationBottom-moduleLink16148409" class=" " href="blog/category/geek-stuff" ><span>Geek Stuff</span></a>
+      
+
+      
+
+    </div>
+
+  </li>
+
+
+  <li class="module   " id="navigationBottom-moduleContentWrapper16146170">
+
+    <div id="navigationBottom-moduleContent16146170">
+
+              <a id="navigationBottom-moduleLink16146170" class=" " href="/blog/category/videos" ><span>Videos</span></a>
+      
+
+      
+
+    </div>
+
+  </li>
+
+
+  <li class="module   " id="navigationBottom-moduleContentWrapper16170282">
+
+    <div id="navigationBottom-moduleContent16170282">
+
+              <a id="navigationBottom-moduleLink16170282" class=" " href="/tgweekly" ><span>TableGamer</span></a>
+      
+
+      
+
+    </div>
+
+  </li>
+
+
+  <li class="module   " id="navigationBottom-moduleContentWrapper16208239">
+
+    <div id="navigationBottom-moduleContent16208239">
+
+              <a id="navigationBottom-moduleLink16208239" class=" " href="/about/" ><span>About</span></a>
+      
+
+      
+
+    </div>
+
+  </li>
+
+
+  </ul><br class="clearer"/></div></div>
+
+
+  </div></div>
+  
+      
+    <div id="socialIconsWrapper">
+<div id="socialIcons">
+<div class="social-icon">
+ <a href="mailto:hex19show@gmail.com"><img src="/storage/site-appearance/version6/email.png" /></a>
+</div>
+<div class="social-icon">
+ <a href="http://www.twitter.com/hex19show"><img src="/storage/site-appearance/version6/twitter.png" /></a>
+</div>
+<div class="social-icon">
+ <a href="http://www.facebook.com/hex19"><img src="/storage/site-appearance/version6/facebook.png" /></a>
+</div>
+<div class="social-icon">
+ <a href="blog/rss.xml"><img src="/storage/site-appearance/version6/rss.png" /></a>
+</div>
+</div>
+</div>
+  
+
+  
+
+  
+  <div id="pageBodyWrapper"><div id="pageBody">
+  
+  <div id="sidebar1Wrapper" class="verticalNavigationBarWrapper"><div class="iw-vnb1"><div class="iw-vnb2"><div class="iw-vnb3"><div class="iw-vnb4"><div id="sidebar1" class="verticalNavigationBar">
+
+  
+
+    <div id="sectionContent5926567" class="sectionWrapper  "><div class="iw-s1"><div class="iw-s2"><div class="iw-s3"><div class="iw-s4"><div class="section">
+
+      
+
+      
+        
+          <div class="content-passthrough"><div id="moduleContentWrapper14165135" class="widget-wrapper  widget-type-search"><div id="moduleContent14165135">
+
+
+<!-- <form method="get" action="/display/Search">
+	<div class="search-form-pt-wrapper">
+	  <div class="search-form-pt">
+	    <span class="queryFieldWrapper"><input type="text" class="text queryField" name="searchQuery" value=""/></span>
+	    <span class="queryButtonWrapper"><input type="submit" class="button queryButton" value="&raquo;"/></span>
+	    <input type="hidden" name="moduleId" value="14165135"/>
+	    <br class="clearer"/>
+	  </div>
+	</div>
+</form> -->
+
+<form method="get" action="/display/Search">
+	<input type="hidden" name="moduleId" value="14165135"/>
+	<table class="search-form-pt-wrapper search-form-table" border="0" cellpadding="0" cellspacing="0">
+		<tr class="search-form-pt search-form-row">
+			<td class="queryFieldCell search-form-cell">
+				<span class="queryFieldWrapper">
+					<input type="text" class="text queryField" name="searchQuery" value=""/>
+				</span>
+			</td>
+			<td class="queryButtonCell search-form-cell">
+				<span class="queryButtonWrapper">
+					<input type="submit" class="button queryButton" value="&rarr;"/>
+				</span>
+			</td>
+		</tr>
+	</table> 
+</form></div></div></div>
+
+        
+
+      
+  
+    </div></div></div></div></div></div>
+
+  
+
+    <div id="sectionContent6906840" class="sectionWrapper  "><div class="iw-s1"><div class="iw-s2"><div class="iw-s3"><div class="iw-s4"><div class="section">
+
+       <div class="caption">Latest Geekcast Episode</div> 
+
+      
+        
+          <div class="content-passthrough"><div id="moduleContentWrapper16382123" class="widget-wrapper  widget-type-page"><div id="moduleContent16382123">
+
+
+
+
+
+  <h4><span class="thumbnail-image-block ssNonEditable"><span><a href="http://hex19.com/hex19/the-hex19-geekcast-ep-72-saucer-section.html"><img style="width: 300px;" src="/storage/article-images/hex19_072art.png" alt="" /></a></span></span></h4>
+  <p style="text-align: left;"><strong><a href="http://hex19.com/hex19/the-hex19-geekcast-ep-72-saucer-section.html">This Week: <span>The New Game Awards, This War of Mine, Titanfall and Gaming PC Upgrades</span></a></strong></p>
+</div></div></div>
+
+        
+
+      
+  
+    </div></div></div></div></div></div>
+
+  
+
+    <div id="sectionContent6991743" class="sectionWrapper  "><div class="iw-s1"><div class="iw-s2"><div class="iw-s3"><div class="iw-s4"><div class="section">
+
+       <div class="caption">Featured Articles</div> 
+
+      
+        
+          <div class="content-passthrough"><div id="moduleContentWrapper16577358" class="widget-wrapper  widget-type-page"><div id="moduleContent16577358">
+
+
+
+
+
+  <p><span class="thumbnail-image-block ssNonEditable"><span><a href="/blog/penny-arcades-strip-search-is-the-best-show-youre-not-watchi.html"><img style="width: 300px;" src="/storage/article-images/stripsearch-review-title-card.jpg?__SQUARESPACE_CACHEVERSION=1388638263635" alt="" /></a></span></span><a href="http://www.hex19.com/blog/forza-horzion-hex19-playdate.html"><strong><span style="font-size: 120%;">Strip Search Review</span></strong></a></p>
+  <p><span style="font-size: small;"><span class="thumbnail-image-block ssNonEditable"><span><a href="/blog/gang-beasts-hex19-playdate.html"><img src="/storage/article-images/featured-thumbnails/gangbeasts-thumb.jpg?__SQUARESPACE_CACHEVERSION=1410233999523" alt="" /></a></span></span><strong><span style="font-size: 120%;"><span style="font-size: 120%;"><a href="http://hex19.com/blog/gang-beasts-hex19-playdate.html"><span style="font-size: 80%;">Gang Beasts Playdate</span></a></span></span></strong></span></p>
+</div></div></div>
+
+        
+
+      
+  
+    </div></div></div></div></div></div>
+
+  
+
+    <div id="sectionContent1903179" class="sectionWrapper promotedContainer "><div class="iw-s1"><div class="iw-s2"><div class="iw-s3"><div class="iw-s4"><div class="section">
+
+       <div class="caption">Top</div> 
+
+      
+        
+          <ul class="content-navigation">
+  <li class="module active-module  " id="moduleContentWrapper9638144">
+
+    <div id="moduleContent9638144">
+
+              <a id="moduleLink9638144" class=" " href="/" ><span>Blog</span></a>
+      
+
+      
+
+    </div>
+
+  </li>
+
+
+  <li class="module   " id="moduleContentWrapper3933138">
+
+    <div id="moduleContent3933138">
+
+              <a id="moduleLink3933138" class=" " href="/hex19/" ><span>Geekcast</span></a>
+      
+
+      
+
+    </div>
+
+  </li>
+
+
+  <li class="module   " id="moduleContentWrapper16146135">
+
+    <div id="moduleContent16146135">
+
+              <a id="moduleLink16146135" class=" " href="/blog/category/news" ><span>News</span></a>
+      
+
+      
+
+    </div>
+
+  </li>
+
+
+  <li class="module   " id="moduleContentWrapper16146165">
+
+    <div id="moduleContent16146165">
+
+              <a id="moduleLink16146165" class=" " href="/blog/category/reviews" ><span>Reviews</span></a>
+      
+
+      
+
+    </div>
+
+  </li>
+
+
+  <li class="module   " id="moduleContentWrapper16146139">
+
+    <div id="moduleContent16146139">
+
+              <a id="moduleLink16146139" class=" " href="/blog/category/features" ><span>Features</span></a>
+      
+
+      
+
+    </div>
+
+  </li>
+
+
+  <li class="module   " id="moduleContentWrapper16148409">
+
+    <div id="moduleContent16148409">
+
+              <a id="moduleLink16148409" class=" " href="blog/category/geek-stuff" ><span>Geek Stuff</span></a>
+      
+
+      
+
+    </div>
+
+  </li>
+
+
+  <li class="module   " id="moduleContentWrapper16146170">
+
+    <div id="moduleContent16146170">
+
+              <a id="moduleLink16146170" class=" " href="/blog/category/videos" ><span>Videos</span></a>
+      
+
+      
+
+    </div>
+
+  </li>
+
+
+  <li class="module   " id="moduleContentWrapper16170282">
+
+    <div id="moduleContent16170282">
+
+              <a id="moduleLink16170282" class=" " href="/tgweekly" ><span>TableGamer</span></a>
+      
+
+      
+
+    </div>
+
+  </li>
+
+
+  <li class="module   " id="moduleContentWrapper16208239">
+
+    <div id="moduleContent16208239">
+
+              <a id="moduleLink16208239" class=" " href="/about/" ><span>About</span></a>
+      
+
+      
+
+    </div>
+
+  </li>
+
+</ul>
+
+        
+
+      
+  
+    </div></div></div></div></div></div>
+
+  
+
+    <div id="sectionContent6827900" class="sectionWrapper  "><div class="iw-s1"><div class="iw-s2"><div class="iw-s3"><div class="iw-s4"><div class="section">
+
+       <div class="caption">Our Geekblog Contributors</div> 
+
+      
+        
+          <div class="content-passthrough"><div id="moduleContentWrapper16200787" class="widget-wrapper  widget-type-twitter"><div id="moduleContent16200787">
+
+<style type="text/css">
+    <!--
+      #twitter-wrapper-16200787 {
+        display: block;
+        visibility: hidden;
+      }
+            
+    -->
+</style>
+
+<div id="twitter-loading-wrapper-16200787" style="display:none; background:#353535; -moz-border-radius:8px; -webkit-border-radius:8px; height:300px; ">
+  <div id="twitter-loading-img-16200787" style="height:100%; background:url(/universal/images/loading.png) no-repeat center center transparent;" ></div>
+</div>
+
+<div id="twitter-error-wrapper-16200787" style="display:none; background:#353535; -moz-border-radius:8px; -webkit-border-radius:8px; height:300px; ">
+  <a id="twitter-error-img-16200787" style="display:block; height:100%; background:url(/universal/images/loading-refresh.png) no-repeat center center transparent;" 
+    href="javascript:void(0);" onclick="javascript: twitterWidget16200787.show();">&nbsp;</a>
+</div>
+
+
+
+
+
+
+  <div id="twitter-wrapper-16200787" class="twitter-wrapper preset chunk">
+    <div class="twitter-content secondary">
+    
+      <div class="twitter-header">
+                <div class="twitter-avatar"><a id="twitterer-avatar-link-16200787-1" href="" target="_blank"><img id="twitterer-avatar-img-16200787-1" src="" /></a></div>
+        
+                <div class="twitter-name"><a id="twitterer-fullname-link-16200787-1" href="" target="_blank"></a></div>
+        
+                <div class="twitter-username"><a id="twitterer-username-link-16200787-1" href="" target="_blank"></a></div>
+        
+        <div class="clearer"></div>            
+      </div>
+      
+      <div id="twitter-page-16200787">
+      
+        <div id="tweet-item-16200787-1" class="twitter-item highlight primary">
+          <div class="twitter-item-content">
+            <span id="tweet-content-16200787-1"></span>
+                        <div class="twitter-date"><a id="tweet-date-16200787-1" href="" target="_blank"></a></div>
+            
+          </div>
+        </div>
+      
+        
+        
+      </div>
+              
+      
+    
+    </div>
+    
+    
+    
+  </div>
+
+
+
+<script type="text/javascript">
+<!--
+
+  var twitterWidget16200787;
+
+  E.onDOMReady( function() {
+
+    twitterWidget16200787 = new Squarespace.Social.TwitterWidget(16200787, { preset : 'chunk-preset', pageSize : 1, followMeText : 'Follow @username', filter : '', filterType : 'any', filterAtReplies: true, filterRetweets : true, userIds : '13414532,' });
+    twitterWidget16200787.show();      
+    
+  });
+  
+  
+//-->
+</script></div></div><div id="moduleContentWrapper19440944" class="widget-wrapper  widget-type-twitter"><div id="moduleContent19440944">
+
+<style type="text/css">
+    <!--
+      #twitter-wrapper-19440944 {
+        display: block;
+        visibility: hidden;
+      }
+            
+    -->
+</style>
+
+<div id="twitter-loading-wrapper-19440944" style="display:none; background:#353535; -moz-border-radius:8px; -webkit-border-radius:8px; height:300px; ">
+  <div id="twitter-loading-img-19440944" style="height:100%; background:url(/universal/images/loading.png) no-repeat center center transparent;" ></div>
+</div>
+
+<div id="twitter-error-wrapper-19440944" style="display:none; background:#353535; -moz-border-radius:8px; -webkit-border-radius:8px; height:300px; ">
+  <a id="twitter-error-img-19440944" style="display:block; height:100%; background:url(/universal/images/loading-refresh.png) no-repeat center center transparent;" 
+    href="javascript:void(0);" onclick="javascript: twitterWidget19440944.show();">&nbsp;</a>
+</div>
+
+
+
+
+
+
+  <div id="twitter-wrapper-19440944" class="twitter-wrapper preset chunk">
+    <div class="twitter-content secondary">
+    
+      <div class="twitter-header">
+                <div class="twitter-avatar"><a id="twitterer-avatar-link-19440944-1" href="" target="_blank"><img id="twitterer-avatar-img-19440944-1" src="" /></a></div>
+        
+                <div class="twitter-name"><a id="twitterer-fullname-link-19440944-1" href="" target="_blank"></a></div>
+        
+                <div class="twitter-username"><a id="twitterer-username-link-19440944-1" href="" target="_blank"></a></div>
+        
+        <div class="clearer"></div>            
+      </div>
+      
+      <div id="twitter-page-19440944">
+      
+        <div id="tweet-item-19440944-1" class="twitter-item highlight primary">
+          <div class="twitter-item-content">
+            <span id="tweet-content-19440944-1"></span>
+                        <div class="twitter-date"><a id="tweet-date-19440944-1" href="" target="_blank"></a></div>
+            
+          </div>
+        </div>
+      
+        
+        
+      </div>
+              
+      
+    
+    </div>
+    
+    
+    
+  </div>
+
+
+
+<script type="text/javascript">
+<!--
+
+  var twitterWidget19440944;
+
+  E.onDOMReady( function() {
+
+    twitterWidget19440944 = new Squarespace.Social.TwitterWidget(19440944, { preset : 'chunk-preset', pageSize : 1, followMeText : 'Follow @username', filter : '', filterType : 'any', filterAtReplies: true, filterRetweets : true, userIds : '13075232,' });
+    twitterWidget19440944.show();      
+    
+  });
+  
+  
+//-->
+</script></div></div><div id="moduleContentWrapper16200802" class="widget-wrapper  widget-type-twitter"><div id="moduleContent16200802">
+
+<style type="text/css">
+    <!--
+      #twitter-wrapper-16200802 {
+        display: block;
+        visibility: hidden;
+      }
+            
+    -->
+</style>
+
+<div id="twitter-loading-wrapper-16200802" style="display:none; background:#353535; -moz-border-radius:8px; -webkit-border-radius:8px; height:300px; ">
+  <div id="twitter-loading-img-16200802" style="height:100%; background:url(/universal/images/loading.png) no-repeat center center transparent;" ></div>
+</div>
+
+<div id="twitter-error-wrapper-16200802" style="display:none; background:#353535; -moz-border-radius:8px; -webkit-border-radius:8px; height:300px; ">
+  <a id="twitter-error-img-16200802" style="display:block; height:100%; background:url(/universal/images/loading-refresh.png) no-repeat center center transparent;" 
+    href="javascript:void(0);" onclick="javascript: twitterWidget16200802.show();">&nbsp;</a>
+</div>
+
+
+
+
+
+
+  <div id="twitter-wrapper-16200802" class="twitter-wrapper preset chunk">
+    <div class="twitter-content secondary">
+    
+      <div class="twitter-header">
+                <div class="twitter-avatar"><a id="twitterer-avatar-link-16200802-1" href="" target="_blank"><img id="twitterer-avatar-img-16200802-1" src="" /></a></div>
+        
+                <div class="twitter-name"><a id="twitterer-fullname-link-16200802-1" href="" target="_blank"></a></div>
+        
+                <div class="twitter-username"><a id="twitterer-username-link-16200802-1" href="" target="_blank"></a></div>
+        
+        <div class="clearer"></div>            
+      </div>
+      
+      <div id="twitter-page-16200802">
+      
+        <div id="tweet-item-16200802-1" class="twitter-item highlight primary">
+          <div class="twitter-item-content">
+            <span id="tweet-content-16200802-1"></span>
+                        <div class="twitter-date"><a id="tweet-date-16200802-1" href="" target="_blank"></a></div>
+            
+          </div>
+        </div>
+      
+        
+        
+      </div>
+              
+      
+    
+    </div>
+    
+    
+    
+  </div>
+
+
+
+<script type="text/javascript">
+<!--
+
+  var twitterWidget16200802;
+
+  E.onDOMReady( function() {
+
+    twitterWidget16200802 = new Squarespace.Social.TwitterWidget(16200802, { preset : 'chunk-preset', pageSize : 1, followMeText : 'Follow @username', filter : '', filterType : 'any', filterAtReplies: true, filterRetweets : true, userIds : '15899225,' });
+    twitterWidget16200802.show();      
+    
+  });
+  
+  
+//-->
+</script></div></div><div id="moduleContentWrapper16200801" class="widget-wrapper  widget-type-twitter"><div id="moduleContent16200801">
+
+<style type="text/css">
+    <!--
+      #twitter-wrapper-16200801 {
+        display: block;
+        visibility: hidden;
+      }
+            
+    -->
+</style>
+
+<div id="twitter-loading-wrapper-16200801" style="display:none; background:#353535; -moz-border-radius:8px; -webkit-border-radius:8px; height:300px; ">
+  <div id="twitter-loading-img-16200801" style="height:100%; background:url(/universal/images/loading.png) no-repeat center center transparent;" ></div>
+</div>
+
+<div id="twitter-error-wrapper-16200801" style="display:none; background:#353535; -moz-border-radius:8px; -webkit-border-radius:8px; height:300px; ">
+  <a id="twitter-error-img-16200801" style="display:block; height:100%; background:url(/universal/images/loading-refresh.png) no-repeat center center transparent;" 
+    href="javascript:void(0);" onclick="javascript: twitterWidget16200801.show();">&nbsp;</a>
+</div>
+
+
+
+
+
+
+  <div id="twitter-wrapper-16200801" class="twitter-wrapper preset chunk">
+    <div class="twitter-content secondary">
+    
+      <div class="twitter-header">
+                <div class="twitter-avatar"><a id="twitterer-avatar-link-16200801-1" href="" target="_blank"><img id="twitterer-avatar-img-16200801-1" src="" /></a></div>
+        
+                <div class="twitter-name"><a id="twitterer-fullname-link-16200801-1" href="" target="_blank"></a></div>
+        
+                <div class="twitter-username"><a id="twitterer-username-link-16200801-1" href="" target="_blank"></a></div>
+        
+        <div class="clearer"></div>            
+      </div>
+      
+      <div id="twitter-page-16200801">
+      
+        <div id="tweet-item-16200801-1" class="twitter-item highlight primary">
+          <div class="twitter-item-content">
+            <span id="tweet-content-16200801-1"></span>
+                        <div class="twitter-date"><a id="tweet-date-16200801-1" href="" target="_blank"></a></div>
+            
+          </div>
+        </div>
+      
+        
+        
+      </div>
+              
+      
+    
+    </div>
+    
+    
+    
+  </div>
+
+
+
+<script type="text/javascript">
+<!--
+
+  var twitterWidget16200801;
+
+  E.onDOMReady( function() {
+
+    twitterWidget16200801 = new Squarespace.Social.TwitterWidget(16200801, { preset : 'chunk-preset', pageSize : 1, followMeText : 'Follow @username', filter : '', filterType : 'any', filterAtReplies: true, filterRetweets : true, userIds : '79883811,' });
+    twitterWidget16200801.show();      
+    
+  });
+  
+  
+//-->
+</script></div></div></div>
+
+        
+
+      
+  
+    </div></div></div></div></div></div>
+
+  
+
+  
+
+</div></div></div></div></div></div>
+  <div id="sidebar2Wrapper" class="verticalNavigationBarWrapper"><div class="iw-vnb1"><div class="iw-vnb2"><div class="iw-vnb3"><div class="iw-vnb4"><div id="sidebar2" class="verticalNavigationBar">
+
+  
+
+  
+
+</div></div></div></div></div></div>
+  
+  
+
+  <div id="contentWrapper"><div id="content">
+    
+          
+    
+
+
+  
+
+
+  
+
+  
+    
+
+  
+  
+  <div class="list-journal-entry-wrapper">
+
+          
+
+
+<div class="journal-entry-wrapper post-text authored-by-tgweekly category-video-games category-videos">
+<div id="item35163800" class="journal-entry">
+
+  <div class="journal-entry-float-day"><span class="name">Saturday</span></div><div class="journal-entry-float-date"><span class="month">Dec</span><span class="date">27</span><span class="year">2014</span></div>
+  
+  
+  
+  <div class="journal-entry-text">
+  
+      
+      <h2 class="title">
+    
+        
+    
+        <a class="journal-entry-navigation-current" href="/blog/inquisition-dragon-guide-part-2.html">Inquisition Dragon Guide Part&nbsp;2</a>  
+     
+         
+    
+      </h2>
+      
+       <div class="journal-entry-tag journal-entry-tag-post-title"><span class="posted-on">   <img title="Date" alt="Date" class="inline-icon date-icon" rel="0" src="/universal/images/transparent.png" />December 27, 2014 at 6:07 PM</span> |  <span class="posted-by">  <a href="/blog/author/tgweekly"> <img title="Author" alt="Author" class="inline-icon user-registered-icon" rel="0" src="/universal/images/transparent.png" />Hex19</a></span> <span class="posted-in"> <span class="tag-element"><a rel="tag" href="/blog/category/video-games"> <img title="Category" alt="Category" class="inline-icon category-icon" rel="0" src="/universal/images/transparent.png" />Video Games</a></span> <span class="tag-element"><a rel="tag" href="/blog/category/videos"> <img title="Category" alt="Category" class="inline-icon category-icon" rel="0" src="/universal/images/transparent.png" />Videos</a></span></span>  </div> 
+
+    
+  
+      
+      <div class="body">
+  
+        
+        
+        
+          <p><iframe width="650" height="398" src="//www.youtube.com/embed/toAGSuBBPw0" frameborder="0" allowfullscreen></iframe><br />Aaron is back with another guide for Dragon Age: Inquisition, this time showing off the dangerous dragons in Crestwood, the Exalted Plains and the Hissing Wastes. Fun Fact of the Day: Crestwood may be named after a neighbourhood in Edmonton, where both Bioware and Hex19 are based. Brett, Yuri and Glenn also chime in with commentary on this guide. Thanks for watching, and please support us by subscribing to our <a href="http://youtube.com/hex19show">YouTube channel</a>.</p>
+
+        
+  
+          
+  
+         
+  
+      </div>
+
+    
+
+  </div>
+
+      <div class="journal-entry-tag journal-entry-tag-post-body">
+      <div class="journal-entry-tag-post-body-line1"><span class="tagged-with">tagged:  <span class="tag-element"><a rel="tag" href="/blog/tag/bioware"> <img title="Tag" alt="Tag" class="inline-icon tag-icon" rel="0" src="/universal/images/transparent.png" />Bioware</a></span>, <span class="tag-element"><a rel="tag" href="/blog/tag/dragon-age-iii-inquisition"> <img title="Tag" alt="Tag" class="inline-icon tag-icon" rel="0" src="/universal/images/transparent.png" />Dragon Age III: Inquisition</a></span>, <span class="tag-element"><a rel="tag" href="/blog/tag/ea"> <img title="Tag" alt="Tag" class="inline-icon tag-icon" rel="0" src="/universal/images/transparent.png" />EA</a></span>, <span class="tag-element"><a rel="tag" href="/blog/tag/guides"> <img title="Tag" alt="Tag" class="inline-icon tag-icon" rel="0" src="/universal/images/transparent.png" />Guides</a></span></span>  </div>
+      <div class="journal-entry-tag-post-body-line2"><span class="post-comments"><a href="/blog/inquisition-dragon-guide-part-2.html#comments"> <img title="Comment" alt="Comment" class="inline-icon comment-icon" rel="0" src="/universal/images/transparent.png" />Post a Comment</a></span> |  <span class="share-item"><a href="javascript:noop();" onclick="Squarespace.Interaction.shareLink(this,'%2Fblog%2Finquisition-dragon-guide-part-2.html','Inquisition%20Dragon%20Guide%20Part%202');"> <img title="Share Article" alt="Share Article" class="inline-icon share-icon" rel="0" src="/universal/images/transparent.png" />Share Article </a></span> </div>
+      <div class="journal-entry-tag-post-body-line3"></div>
+    </div>
+  
+  
+  <div class="clearer"></div>
+
+</div>
+</div>
+
+
+
+
+
+
+
+<div class="journal-entry-wrapper post-text authored-by-tgweekly category-video-games category-videos">
+<div id="item35149391" class="journal-entry">
+
+  <div class="journal-entry-float-day"><span class="name">Sunday</span></div><div class="journal-entry-float-date"><span class="month">Dec</span><span class="date">14</span><span class="year">2014</span></div>
+  
+  
+  
+  <div class="journal-entry-text">
+  
+      
+      <h2 class="title">
+    
+        
+    
+        <a class="journal-entry-navigation-current" href="/blog/dragon-age-inquisition-dragons-guide.html">Dragon Age: Inquisition Dragons&nbsp;Guide</a>  
+     
+         
+    
+      </h2>
+      
+       <div class="journal-entry-tag journal-entry-tag-post-title"><span class="posted-on">   <img title="Date" alt="Date" class="inline-icon date-icon" rel="0" src="/universal/images/transparent.png" />December 14, 2014 at 10:12 PM</span> |  <span class="posted-by">  <a href="/blog/author/tgweekly"> <img title="Author" alt="Author" class="inline-icon user-registered-icon" rel="0" src="/universal/images/transparent.png" />Hex19</a></span> <span class="posted-in"> <span class="tag-element"><a rel="tag" href="/blog/category/video-games"> <img title="Category" alt="Category" class="inline-icon category-icon" rel="0" src="/universal/images/transparent.png" />Video Games</a></span> <span class="tag-element"><a rel="tag" href="/blog/category/videos"> <img title="Category" alt="Category" class="inline-icon category-icon" rel="0" src="/universal/images/transparent.png" />Videos</a></span></span>  </div> 
+
+    
+  
+      
+      <div class="body">
+  
+        
+        
+        
+          <p><iframe width="650" height="398" src="//www.youtube.com/embed/kz4jnm7y-PI" frameborder="0" allowfullscreen></iframe><br />We hope you're having as much fun with Dragon Age: Inquisition as we are. In this video guide, Aaron Raham shows us the first 4 dragon encounters from his game. Dragons are some of the fiercest enemies in the game, and you'll need a combination of skill and strategy to take them down. Glenn Meyer, Yuri Walkiw and Brett Commandeur also chime in with commentary. Thanks for watching!</p>
+
+        
+  
+          
+  
+         
+  
+      </div>
+
+    
+
+  </div>
+
+      <div class="journal-entry-tag journal-entry-tag-post-body">
+      <div class="journal-entry-tag-post-body-line1"><span class="tagged-with">tagged:  <span class="tag-element"><a rel="tag" href="/blog/tag/bioware"> <img title="Tag" alt="Tag" class="inline-icon tag-icon" rel="0" src="/universal/images/transparent.png" />Bioware</a></span>, <span class="tag-element"><a rel="tag" href="/blog/tag/dragon-age-iii-inquisition"> <img title="Tag" alt="Tag" class="inline-icon tag-icon" rel="0" src="/universal/images/transparent.png" />Dragon Age III: Inquisition</a></span>, <span class="tag-element"><a rel="tag" href="/blog/tag/ea"> <img title="Tag" alt="Tag" class="inline-icon tag-icon" rel="0" src="/universal/images/transparent.png" />EA</a></span>, <span class="tag-element"><a rel="tag" href="/blog/tag/guides"> <img title="Tag" alt="Tag" class="inline-icon tag-icon" rel="0" src="/universal/images/transparent.png" />Guides</a></span>, <span class="tag-element"><a rel="tag" href="/blog/tag/origin"> <img title="Tag" alt="Tag" class="inline-icon tag-icon" rel="0" src="/universal/images/transparent.png" />Origin</a></span>, <span class="tag-element"><a rel="tag" href="/blog/tag/pc"> <img title="Tag" alt="Tag" class="inline-icon tag-icon" rel="0" src="/universal/images/transparent.png" />PC</a></span>, <span class="tag-element"><a rel="tag" href="/blog/tag/ps4"> <img title="Tag" alt="Tag" class="inline-icon tag-icon" rel="0" src="/universal/images/transparent.png" />PS4</a></span>, <span class="tag-element"><a rel="tag" href="/blog/tag/xbox-one"> <img title="Tag" alt="Tag" class="inline-icon tag-icon" rel="0" src="/universal/images/transparent.png" />Xbox One</a></span></span>  </div>
+      <div class="journal-entry-tag-post-body-line2"><span class="post-comments"><a href="/blog/dragon-age-inquisition-dragons-guide.html#comments"> <img title="Comment" alt="Comment" class="inline-icon comment-icon" rel="0" src="/universal/images/transparent.png" />Post a Comment</a></span> |  <span class="share-item"><a href="javascript:noop();" onclick="Squarespace.Interaction.shareLink(this,'%2Fblog%2Fdragon-age-inquisition-dragons-guide.html','Dragon%20Age%3A%20Inquisition%20Dragons%20Guide');"> <img title="Share Article" alt="Share Article" class="inline-icon share-icon" rel="0" src="/universal/images/transparent.png" />Share Article </a></span> </div>
+      <div class="journal-entry-tag-post-body-line3"></div>
+    </div>
+  
+  
+  <div class="clearer"></div>
+
+</div>
+</div>
+
+
+
+
+
+
+
+<div class="journal-entry-wrapper post-text authored-by-tgweekly category-video-games category-videos">
+<div id="item35113853" class="journal-entry">
+
+  <div class="journal-entry-float-day"><span class="name">Monday</span></div><div class="journal-entry-float-date"><span class="month">Nov</span><span class="date">17</span><span class="year">2014</span></div>
+  
+  
+  
+  <div class="journal-entry-text">
+  
+      
+      <h2 class="title">
+    
+        
+    
+        <a class="journal-entry-navigation-current" href="/blog/evolve-alpha-hex19-playdate.html">Evolve Alpha - Hex19&nbsp;Playdate</a>  
+     
+         
+    
+      </h2>
+      
+       <div class="journal-entry-tag journal-entry-tag-post-title"><span class="posted-on">   <img title="Date" alt="Date" class="inline-icon date-icon" rel="0" src="/universal/images/transparent.png" />November 17, 2014 at 9:40 PM</span> |  <span class="posted-by">  <a href="/blog/author/tgweekly"> <img title="Author" alt="Author" class="inline-icon user-registered-icon" rel="0" src="/universal/images/transparent.png" />Hex19</a></span> <span class="posted-in"> <span class="tag-element"><a rel="tag" href="/blog/category/video-games"> <img title="Category" alt="Category" class="inline-icon category-icon" rel="0" src="/universal/images/transparent.png" />Video Games</a></span> <span class="tag-element"><a rel="tag" href="/blog/category/videos"> <img title="Category" alt="Category" class="inline-icon category-icon" rel="0" src="/universal/images/transparent.png" />Videos</a></span></span>  </div> 
+
+    
+  
+      
+      <div class="body">
+  
+        
+        
+        
+          <p><iframe width="650" height="398" src="//www.youtube.com/embed/mY2H3W8NdoE" frameborder="0" allowfullscreen></iframe></p>
+<p>Aaron Raham and Glenn Meyer of Hex19.com take a first look at the Evolve Alpha in the latest Hex19 Playdate. Evolve is an upcoming asymmetrical shooter from 2K and Turtle Rock where 4 players work together against a single powerful monster. It's scheduled for release on Februrary 10, 2015 on PS4, Xbox One and PC. Thanks for watching!</p>
+
+        
+  
+          
+  
+         
+  
+      </div>
+
+    
+
+  </div>
+
+      <div class="journal-entry-tag journal-entry-tag-post-body">
+      <div class="journal-entry-tag-post-body-line1"><span class="tagged-with">tagged:  <span class="tag-element"><a rel="tag" href="/blog/tag/2k-games"> <img title="Tag" alt="Tag" class="inline-icon tag-icon" rel="0" src="/universal/images/transparent.png" />2K Games</a></span>, <span class="tag-element"><a rel="tag" href="/blog/tag/evolve"> <img title="Tag" alt="Tag" class="inline-icon tag-icon" rel="0" src="/universal/images/transparent.png" />Evolve</a></span>, <span class="tag-element"><a rel="tag" href="/blog/tag/pc"> <img title="Tag" alt="Tag" class="inline-icon tag-icon" rel="0" src="/universal/images/transparent.png" />PC</a></span>, <span class="tag-element"><a rel="tag" href="/blog/tag/ps4"> <img title="Tag" alt="Tag" class="inline-icon tag-icon" rel="0" src="/universal/images/transparent.png" />PS4</a></span>, <span class="tag-element"><a rel="tag" href="/blog/tag/playdate"> <img title="Tag" alt="Tag" class="inline-icon tag-icon" rel="0" src="/universal/images/transparent.png" />Playdate</a></span>, <span class="tag-element"><a rel="tag" href="/blog/tag/turtle-rock"> <img title="Tag" alt="Tag" class="inline-icon tag-icon" rel="0" src="/universal/images/transparent.png" />Turtle Rock</a></span>, <span class="tag-element"><a rel="tag" href="/blog/tag/xbox-one"> <img title="Tag" alt="Tag" class="inline-icon tag-icon" rel="0" src="/universal/images/transparent.png" />Xbox One</a></span></span>  </div>
+      <div class="journal-entry-tag-post-body-line2"><span class="post-comments"><a href="/blog/evolve-alpha-hex19-playdate.html#comments"> <img title="Comment" alt="Comment" class="inline-icon comment-icon" rel="0" src="/universal/images/transparent.png" />Post a Comment</a></span> |  <span class="share-item"><a href="javascript:noop();" onclick="Squarespace.Interaction.shareLink(this,'%2Fblog%2Fevolve-alpha-hex19-playdate.html','Evolve%20Alpha%20-%20Hex19%20Playdate');"> <img title="Share Article" alt="Share Article" class="inline-icon share-icon" rel="0" src="/universal/images/transparent.png" />Share Article </a></span> </div>
+      <div class="journal-entry-tag-post-body-line3"></div>
+    </div>
+  
+  
+  <div class="clearer"></div>
+
+</div>
+</div>
+
+
+
+
+
+
+
+<div class="journal-entry-wrapper post-text authored-by-tgweekly category-video-games category-videos">
+<div id="item35064124" class="journal-entry">
+
+  <div class="journal-entry-float-day"><span class="name">Wednesday</span></div><div class="journal-entry-float-date"><span class="month">Oct</span><span class="date">15</span><span class="year">2014</span></div>
+  
+  
+  
+  <div class="journal-entry-text">
+  
+      
+      <h2 class="title">
+    
+        
+    
+        <a class="journal-entry-navigation-current" href="/blog/defense-grid-2-hex19-playdate.html">Defense Grid 2 - Hex19&nbsp;Playdate</a>  
+     
+         
+    
+      </h2>
+      
+       <div class="journal-entry-tag journal-entry-tag-post-title"><span class="posted-on">   <img title="Date" alt="Date" class="inline-icon date-icon" rel="0" src="/universal/images/transparent.png" />October 15, 2014 at 4:07 PM</span> |  <span class="posted-by">  <a href="/blog/author/tgweekly"> <img title="Author" alt="Author" class="inline-icon user-registered-icon" rel="0" src="/universal/images/transparent.png" />Hex19</a></span> <span class="posted-in"> <span class="tag-element"><a rel="tag" href="/blog/category/video-games"> <img title="Category" alt="Category" class="inline-icon category-icon" rel="0" src="/universal/images/transparent.png" />Video Games</a></span> <span class="tag-element"><a rel="tag" href="/blog/category/videos"> <img title="Category" alt="Category" class="inline-icon category-icon" rel="0" src="/universal/images/transparent.png" />Videos</a></span></span>  </div> 
+
+    
+  
+      
+      <div class="body">
+  
+        
+        
+        
+          <p><iframe width="650" height="398" src="//www.youtube.com/embed/5D-0Fij-Mko" frameborder="0" allowfullscreen></iframe><br />Defense Grid: Awakening has been called the "best tower defense game of all time" by some of the Hex19 staff. We were very excited when the sequel was released earlier this month - Defense Grid 2. In this video, Aaron and Yuri take a first stab at DG Coordinated Defense, a new multiplayer mode where two people must work together to defend their cores. Glenn Meyer also joins in with commentary. Thanks for watching!</p>
+
+        
+  
+          
+  
+         
+  
+      </div>
+
+    
+
+  </div>
+
+      <div class="journal-entry-tag journal-entry-tag-post-body">
+      <div class="journal-entry-tag-post-body-line1"><span class="tagged-with">tagged:  <span class="tag-element"><a rel="tag" href="/blog/tag/505-games"> <img title="Tag" alt="Tag" class="inline-icon tag-icon" rel="0" src="/universal/images/transparent.png" />505 Games</a></span>, <span class="tag-element"><a rel="tag" href="/blog/tag/defense-grid-2"> <img title="Tag" alt="Tag" class="inline-icon tag-icon" rel="0" src="/universal/images/transparent.png" />Defense Grid 2</a></span>, <span class="tag-element"><a rel="tag" href="/blog/tag/hidden-path"> <img title="Tag" alt="Tag" class="inline-icon tag-icon" rel="0" src="/universal/images/transparent.png" />Hidden Path</a></span>, <span class="tag-element"><a rel="tag" href="/blog/tag/playdate"> <img title="Tag" alt="Tag" class="inline-icon tag-icon" rel="0" src="/universal/images/transparent.png" />Playdate</a></span>, <span class="tag-element"><a rel="tag" href="/blog/tag/xbox-one"> <img title="Tag" alt="Tag" class="inline-icon tag-icon" rel="0" src="/universal/images/transparent.png" />Xbox One</a></span></span>  </div>
+      <div class="journal-entry-tag-post-body-line2"><span class="post-comments"><a href="/blog/defense-grid-2-hex19-playdate.html#comments"> <img title="Comment" alt="Comment" class="inline-icon comment-icon" rel="0" src="/universal/images/transparent.png" />Post a Comment</a></span> |  <span class="share-item"><a href="javascript:noop();" onclick="Squarespace.Interaction.shareLink(this,'%2Fblog%2Fdefense-grid-2-hex19-playdate.html','Defense%20Grid%202%20-%20Hex19%20Playdate');"> <img title="Share Article" alt="Share Article" class="inline-icon share-icon" rel="0" src="/universal/images/transparent.png" />Share Article </a></span> </div>
+      <div class="journal-entry-tag-post-body-line3"></div>
+    </div>
+  
+  
+  <div class="clearer"></div>
+
+</div>
+</div>
+
+
+
+
+
+
+
+<div class="journal-entry-wrapper post-text authored-by-tgweekly category-video-games category-videos">
+<div id="item35058992" class="journal-entry">
+
+  <div class="journal-entry-float-day"><span class="name">Sunday</span></div><div class="journal-entry-float-date"><span class="month">Oct</span><span class="date">12</span><span class="year">2014</span></div>
+  
+  
+  
+  <div class="journal-entry-text">
+  
+      
+      <h2 class="title">
+    
+        
+    
+        <a class="journal-entry-navigation-current" href="/blog/forza-horizon-2-hex19-playdate.html">Forza Horizon 2 - Hex19&nbsp;Playdate</a>  
+     
+         
+    
+      </h2>
+      
+       <div class="journal-entry-tag journal-entry-tag-post-title"><span class="posted-on">   <img title="Date" alt="Date" class="inline-icon date-icon" rel="0" src="/universal/images/transparent.png" />October 12, 2014 at 11:10 PM</span> |  <span class="posted-by">  <a href="/blog/author/tgweekly"> <img title="Author" alt="Author" class="inline-icon user-registered-icon" rel="0" src="/universal/images/transparent.png" />Hex19</a></span> <span class="posted-in"> <span class="tag-element"><a rel="tag" href="/blog/category/video-games"> <img title="Category" alt="Category" class="inline-icon category-icon" rel="0" src="/universal/images/transparent.png" />Video Games</a></span> <span class="tag-element"><a rel="tag" href="/blog/category/videos"> <img title="Category" alt="Category" class="inline-icon category-icon" rel="0" src="/universal/images/transparent.png" />Videos</a></span></span>  </div> 
+
+    
+  
+      
+      <div class="body">
+  
+        
+        
+        
+          <p><iframe width="650" height="400" src="//www.youtube.com/embed/CVe2K70xLcY" frameborder="0" allowfullscreen></iframe><br />In the latest Hex19 Playdate, Glenn Meyer takes Forza Horizon 2 for a spin on the Xbox One. Insanity ensues, including offroading in a Zelda Rally Fighter, Horizon Promos in midair, and an ill-advised attempt at drifting through Bucket List Challenge #15. Yuri and Aaron are also present on commentary. Thank you so much for watching. If you want to support us, it would help immensely if you subscribed to our <a href="http://youtube.com/hex19show">YouTube channel</a>!</p>
+
+        
+  
+          
+  
+         
+  
+      </div>
+
+    
+
+  </div>
+
+      <div class="journal-entry-tag journal-entry-tag-post-body">
+      <div class="journal-entry-tag-post-body-line1"><span class="tagged-with">tagged:  <span class="tag-element"><a rel="tag" href="/blog/tag/forza"> <img title="Tag" alt="Tag" class="inline-icon tag-icon" rel="0" src="/universal/images/transparent.png" />Forza</a></span>, <span class="tag-element"><a rel="tag" href="/blog/tag/forza-horizon-2"> <img title="Tag" alt="Tag" class="inline-icon tag-icon" rel="0" src="/universal/images/transparent.png" />Forza Horizon 2</a></span>, <span class="tag-element"><a rel="tag" href="/blog/tag/microsoft-studios"> <img title="Tag" alt="Tag" class="inline-icon tag-icon" rel="0" src="/universal/images/transparent.png" />Microsoft Studios</a></span>, <span class="tag-element"><a rel="tag" href="/blog/tag/playdate"> <img title="Tag" alt="Tag" class="inline-icon tag-icon" rel="0" src="/universal/images/transparent.png" />Playdate</a></span>, <span class="tag-element"><a rel="tag" href="/blog/tag/playground-games"> <img title="Tag" alt="Tag" class="inline-icon tag-icon" rel="0" src="/universal/images/transparent.png" />Playground Games</a></span>, <span class="tag-element"><a rel="tag" href="/blog/tag/turn-10"> <img title="Tag" alt="Tag" class="inline-icon tag-icon" rel="0" src="/universal/images/transparent.png" />Turn 10</a></span>, <span class="tag-element"><a rel="tag" href="/blog/tag/xbox-one"> <img title="Tag" alt="Tag" class="inline-icon tag-icon" rel="0" src="/universal/images/transparent.png" />Xbox One</a></span></span>  </div>
+      <div class="journal-entry-tag-post-body-line2"><span class="post-comments"><a href="/blog/forza-horizon-2-hex19-playdate.html#comments"> <img title="Comment" alt="Comment" class="inline-icon comment-icon" rel="0" src="/universal/images/transparent.png" />1 Comment</a></span> |  <span class="share-item"><a href="javascript:noop();" onclick="Squarespace.Interaction.shareLink(this,'%2Fblog%2Fforza-horizon-2-hex19-playdate.html','Forza%20Horizon%202%20-%20Hex19%20Playdate');"> <img title="Share Article" alt="Share Article" class="inline-icon share-icon" rel="0" src="/universal/images/transparent.png" />Share Article </a></span> </div>
+      <div class="journal-entry-tag-post-body-line3"></div>
+    </div>
+  
+  
+  <div class="clearer"></div>
+
+</div>
+</div>
+
+
+
+
+
+
+
+<div class="journal-entry-wrapper post-text authored-by-tgweekly category-video-games category-videos">
+<div id="item35058027" class="journal-entry">
+
+  <div class="journal-entry-float-day"><span class="name">Saturday</span></div><div class="journal-entry-float-date"><span class="month">Oct</span><span class="date">11</span><span class="year">2014</span></div>
+  
+  
+  
+  <div class="journal-entry-text">
+  
+      
+      <h2 class="title">
+    
+        
+    
+        <a class="journal-entry-navigation-current" href="/blog/crawl-part-2-hex19-playdate.html">CRAWL Part 2 - Hex19&nbsp;Playdate</a>  
+     
+         
+    
+      </h2>
+      
+       <div class="journal-entry-tag journal-entry-tag-post-title"><span class="posted-on">   <img title="Date" alt="Date" class="inline-icon date-icon" rel="0" src="/universal/images/transparent.png" />October 11, 2014 at 11:36 PM</span> |  <span class="posted-by">  <a href="/blog/author/tgweekly"> <img title="Author" alt="Author" class="inline-icon user-registered-icon" rel="0" src="/universal/images/transparent.png" />Hex19</a></span> <span class="posted-in"> <span class="tag-element"><a rel="tag" href="/blog/category/video-games"> <img title="Category" alt="Category" class="inline-icon category-icon" rel="0" src="/universal/images/transparent.png" />Video Games</a></span> <span class="tag-element"><a rel="tag" href="/blog/category/videos"> <img title="Category" alt="Category" class="inline-icon category-icon" rel="0" src="/universal/images/transparent.png" />Videos</a></span></span>  </div> 
+
+    
+  
+      
+      <div class="body">
+  
+        
+        
+        
+          <p><iframe width="650" height="400" src="//www.youtube.com/embed/QktUzhCZfKQ" frameborder="0" allowfullscreen></iframe><br />Because Yuri failed to defeat Kourok at the end of <a href="https://www.youtube.com/watch?v=-eSdwRMOOmo">CRAWL Part 1</a>, we had to publish a second video! Part 2 begins with Yuri suddenly on the defensive from monsters controlled by Aaron, Brett and Glenn. The deaths are frequent, and Kourok is challenged multiple times! Watch to find out if any of the Hex19ers are able to defeat Crawl's big bad beast. If you enjoyed our Crawl adventures, make sure to support us by leaving a thumbs up or subscribing on our&nbsp;<a href="http://youtube.com/hex19show">YouTube</a>.</p>
+
+        
+  
+          
+  
+         
+  
+      </div>
+
+    
+
+  </div>
+
+      <div class="journal-entry-tag journal-entry-tag-post-body">
+      <div class="journal-entry-tag-post-body-line1"><span class="tagged-with">tagged:  <span class="tag-element"><a rel="tag" href="/blog/tag/crawl"> <img title="Tag" alt="Tag" class="inline-icon tag-icon" rel="0" src="/universal/images/transparent.png" />Crawl</a></span>, <span class="tag-element"><a rel="tag" href="/blog/tag/pc"> <img title="Tag" alt="Tag" class="inline-icon tag-icon" rel="0" src="/universal/images/transparent.png" />PC</a></span>, <span class="tag-element"><a rel="tag" href="/blog/tag/playdate"> <img title="Tag" alt="Tag" class="inline-icon tag-icon" rel="0" src="/universal/images/transparent.png" />Playdate</a></span>, <span class="tag-element"><a rel="tag" href="/blog/tag/steam"> <img title="Tag" alt="Tag" class="inline-icon tag-icon" rel="0" src="/universal/images/transparent.png" />Steam</a></span></span>  </div>
+      <div class="journal-entry-tag-post-body-line2"><span class="post-comments"><a href="/blog/crawl-part-2-hex19-playdate.html#comments"> <img title="Comment" alt="Comment" class="inline-icon comment-icon" rel="0" src="/universal/images/transparent.png" />Post a Comment</a></span> |  <span class="share-item"><a href="javascript:noop();" onclick="Squarespace.Interaction.shareLink(this,'%2Fblog%2Fcrawl-part-2-hex19-playdate.html','CRAWL%20Part%202%20-%20Hex19%20Playdate');"> <img title="Share Article" alt="Share Article" class="inline-icon share-icon" rel="0" src="/universal/images/transparent.png" />Share Article </a></span> </div>
+      <div class="journal-entry-tag-post-body-line3"></div>
+    </div>
+  
+  
+  <div class="clearer"></div>
+
+</div>
+</div>
+
+
+
+
+
+
+
+<div class="journal-entry-wrapper post-text authored-by-tgweekly category-video-games category-videos">
+<div id="item35046388" class="journal-entry">
+
+  <div class="journal-entry-float-day"><span class="name">Tuesday</span></div><div class="journal-entry-float-date"><span class="month">Sep</span><span class="date">30</span><span class="year">2014</span></div>
+  
+  
+  
+  <div class="journal-entry-text">
+  
+      
+      <h2 class="title">
+    
+        
+    
+        <a class="journal-entry-navigation-current" href="/blog/lethal-league-hex19-playdate.html">Lethal League - Hex19&nbsp;Playdate</a>  
+     
+         
+    
+      </h2>
+      
+       <div class="journal-entry-tag journal-entry-tag-post-title"><span class="posted-on">   <img title="Date" alt="Date" class="inline-icon date-icon" rel="0" src="/universal/images/transparent.png" />September 30, 2014 at 6:47 PM</span> |  <span class="posted-by">  <a href="/blog/author/tgweekly"> <img title="Author" alt="Author" class="inline-icon user-registered-icon" rel="0" src="/universal/images/transparent.png" />Hex19</a></span> <span class="posted-in"> <span class="tag-element"><a rel="tag" href="/blog/category/video-games"> <img title="Category" alt="Category" class="inline-icon category-icon" rel="0" src="/universal/images/transparent.png" />Video Games</a></span> <span class="tag-element"><a rel="tag" href="/blog/category/videos"> <img title="Category" alt="Category" class="inline-icon category-icon" rel="0" src="/universal/images/transparent.png" />Videos</a></span></span>  </div> 
+
+    
+  
+      
+      <div class="body">
+  
+        
+        
+        
+          <p><span><iframe width="650" height="398" src="//www.youtube.com/embed/bTL11mQYG34" frameborder="0" allowfullscreen></iframe><br />It's Super Smash Bros. meets Baseball! Hex19 plays Lethal League - a 4 person multiplayer game available on Steam. Players try to smash each other with a anti-gravity ball that's sometimes moving at supersonic speeds! Thanks for watching.</span></p>
+
+        
+  
+          
+  
+         
+  
+      </div>
+
+    
+
+  </div>
+
+      <div class="journal-entry-tag journal-entry-tag-post-body">
+      <div class="journal-entry-tag-post-body-line1"><span class="tagged-with">tagged:  <span class="tag-element"><a rel="tag" href="/blog/tag/lethal-league"> <img title="Tag" alt="Tag" class="inline-icon tag-icon" rel="0" src="/universal/images/transparent.png" />Lethal League</a></span>, <span class="tag-element"><a rel="tag" href="/blog/tag/pc"> <img title="Tag" alt="Tag" class="inline-icon tag-icon" rel="0" src="/universal/images/transparent.png" />PC</a></span>, <span class="tag-element"><a rel="tag" href="/blog/tag/playdate"> <img title="Tag" alt="Tag" class="inline-icon tag-icon" rel="0" src="/universal/images/transparent.png" />Playdate</a></span>, <span class="tag-element"><a rel="tag" href="/blog/tag/steam"> <img title="Tag" alt="Tag" class="inline-icon tag-icon" rel="0" src="/universal/images/transparent.png" />Steam</a></span></span>  </div>
+      <div class="journal-entry-tag-post-body-line2"><span class="post-comments"><a href="/blog/lethal-league-hex19-playdate.html#comments"> <img title="Comment" alt="Comment" class="inline-icon comment-icon" rel="0" src="/universal/images/transparent.png" />Post a Comment</a></span> |  <span class="share-item"><a href="javascript:noop();" onclick="Squarespace.Interaction.shareLink(this,'%2Fblog%2Flethal-league-hex19-playdate.html','Lethal%20League%20-%20Hex19%20Playdate');"> <img title="Share Article" alt="Share Article" class="inline-icon share-icon" rel="0" src="/universal/images/transparent.png" />Share Article </a></span> </div>
+      <div class="journal-entry-tag-post-body-line3"></div>
+    </div>
+  
+  
+  <div class="clearer"></div>
+
+</div>
+</div>
+
+
+
+
+
+
+
+<div class="journal-entry-wrapper post-text authored-by-tgweekly category-video-games category-videos">
+<div id="item35046377" class="journal-entry">
+
+  <div class="journal-entry-float-day"><span class="name">Tuesday</span></div><div class="journal-entry-float-date"><span class="month">Sep</span><span class="date">30</span><span class="year">2014</span></div>
+  
+  
+  
+  <div class="journal-entry-text">
+  
+      
+      <h2 class="title">
+    
+        
+    
+        <a class="journal-entry-navigation-current" href="/blog/towerfall-ascension-hex19-playdate.html">Towerfall: Ascension - Hex19&nbsp;Playdate</a>  
+     
+         
+    
+      </h2>
+      
+       <div class="journal-entry-tag journal-entry-tag-post-title"><span class="posted-on">   <img title="Date" alt="Date" class="inline-icon date-icon" rel="0" src="/universal/images/transparent.png" />September 30, 2014 at 6:33 PM</span> |  <span class="posted-by">  <a href="/blog/author/tgweekly"> <img title="Author" alt="Author" class="inline-icon user-registered-icon" rel="0" src="/universal/images/transparent.png" />Hex19</a></span> <span class="posted-in"> <span class="tag-element"><a rel="tag" href="/blog/category/video-games"> <img title="Category" alt="Category" class="inline-icon category-icon" rel="0" src="/universal/images/transparent.png" />Video Games</a></span> <span class="tag-element"><a rel="tag" href="/blog/category/videos"> <img title="Category" alt="Category" class="inline-icon category-icon" rel="0" src="/universal/images/transparent.png" />Videos</a></span></span>  </div> 
+
+    
+  
+      
+      <div class="body">
+  
+        
+        
+        
+          <p><span><iframe width="650" height="398" src="//www.youtube.com/embed/UW4kORwXSNM" frameborder="0" allowfullscreen></iframe><br />The gang from Hex19.com tests their archery skills in Towerfall: Ascension, a fantastic local multiplayer game developed by Matt Thorson. For this video, we used the Steam version with Xbox 360 gamepads. Thanks for watching! To support us, please leave a like or subscribe to our channel!</span></p>
+
+        
+  
+          
+  
+         
+  
+      </div>
+
+    
+
+  </div>
+
+      <div class="journal-entry-tag journal-entry-tag-post-body">
+      <div class="journal-entry-tag-post-body-line1"><span class="tagged-with">tagged:  <span class="tag-element"><a rel="tag" href="/blog/tag/pc"> <img title="Tag" alt="Tag" class="inline-icon tag-icon" rel="0" src="/universal/images/transparent.png" />PC</a></span>, <span class="tag-element"><a rel="tag" href="/blog/tag/playdate"> <img title="Tag" alt="Tag" class="inline-icon tag-icon" rel="0" src="/universal/images/transparent.png" />Playdate</a></span>, <span class="tag-element"><a rel="tag" href="/blog/tag/steam"> <img title="Tag" alt="Tag" class="inline-icon tag-icon" rel="0" src="/universal/images/transparent.png" />Steam</a></span>, <span class="tag-element"><a rel="tag" href="/blog/tag/towerfall"> <img title="Tag" alt="Tag" class="inline-icon tag-icon" rel="0" src="/universal/images/transparent.png" />Towerfall</a></span></span>  </div>
+      <div class="journal-entry-tag-post-body-line2"><span class="post-comments"><a href="/blog/towerfall-ascension-hex19-playdate.html#comments"> <img title="Comment" alt="Comment" class="inline-icon comment-icon" rel="0" src="/universal/images/transparent.png" />Post a Comment</a></span> |  <span class="share-item"><a href="javascript:noop();" onclick="Squarespace.Interaction.shareLink(this,'%2Fblog%2Ftowerfall-ascension-hex19-playdate.html','Towerfall%3A%20Ascension%20-%20Hex19%20Playdate');"> <img title="Share Article" alt="Share Article" class="inline-icon share-icon" rel="0" src="/universal/images/transparent.png" />Share Article </a></span> </div>
+      <div class="journal-entry-tag-post-body-line3"></div>
+    </div>
+  
+  
+  <div class="clearer"></div>
+
+</div>
+</div>
+
+
+
+
+
+
+
+<div class="journal-entry-wrapper post-text authored-by-tgweekly category-video-games category-videos">
+<div id="item35046370" class="journal-entry">
+
+  <div class="journal-entry-float-day"><span class="name">Wednesday</span></div><div class="journal-entry-float-date"><span class="month">Sep</span><span class="date">24</span><span class="year">2014</span></div>
+  
+  
+  
+  <div class="journal-entry-text">
+  
+      
+      <h2 class="title">
+    
+        
+    
+        <a class="journal-entry-navigation-current" href="/blog/crawl-part-1-hex19-playdate.html">Crawl Part 1 - Hex19&nbsp;Playdate</a>  
+     
+         
+    
+      </h2>
+      
+       <div class="journal-entry-tag journal-entry-tag-post-title"><span class="posted-on">   <img title="Date" alt="Date" class="inline-icon date-icon" rel="0" src="/universal/images/transparent.png" />September 24, 2014 at 6:31 PM</span> |  <span class="posted-by">  <a href="/blog/author/tgweekly"> <img title="Author" alt="Author" class="inline-icon user-registered-icon" rel="0" src="/universal/images/transparent.png" />Hex19</a></span> <span class="posted-in"> <span class="tag-element"><a rel="tag" href="/blog/category/video-games"> <img title="Category" alt="Category" class="inline-icon category-icon" rel="0" src="/universal/images/transparent.png" />Video Games</a></span> <span class="tag-element"><a rel="tag" href="/blog/category/videos"> <img title="Category" alt="Category" class="inline-icon category-icon" rel="0" src="/universal/images/transparent.png" />Videos</a></span></span>  </div> 
+
+    
+  
+      
+      <div class="body">
+  
+        
+        
+        
+          <div id="_mcePaste"><iframe width="650" height="398" src="//www.youtube.com/embed/-eSdwRMOOmo" frameborder="0" allowfullscreen></iframe><br />The Hex19 gang clashes against each other in CRAWL - a new local multiplayer dungeon crawler out now on Steam Early Access. This one puts a twist on the genre - one player controls the hero, while the other three plot his demise as monsters! Thanks for watching! Please subscribe or leave a like if you enjoyed the video. Part 2 of 2 will be releasing soon.</div>
+
+        
+  
+          
+  
+         
+  
+      </div>
+
+    
+
+  </div>
+
+      <div class="journal-entry-tag journal-entry-tag-post-body">
+      <div class="journal-entry-tag-post-body-line1"><span class="tagged-with">tagged:  <span class="tag-element"><a rel="tag" href="/blog/tag/crawl"> <img title="Tag" alt="Tag" class="inline-icon tag-icon" rel="0" src="/universal/images/transparent.png" />Crawl</a></span>, <span class="tag-element"><a rel="tag" href="/blog/tag/pc"> <img title="Tag" alt="Tag" class="inline-icon tag-icon" rel="0" src="/universal/images/transparent.png" />PC</a></span>, <span class="tag-element"><a rel="tag" href="/blog/tag/playdate"> <img title="Tag" alt="Tag" class="inline-icon tag-icon" rel="0" src="/universal/images/transparent.png" />Playdate</a></span>, <span class="tag-element"><a rel="tag" href="/blog/tag/steam"> <img title="Tag" alt="Tag" class="inline-icon tag-icon" rel="0" src="/universal/images/transparent.png" />Steam</a></span></span>  </div>
+      <div class="journal-entry-tag-post-body-line2"><span class="post-comments"><a href="/blog/crawl-part-1-hex19-playdate.html#comments"> <img title="Comment" alt="Comment" class="inline-icon comment-icon" rel="0" src="/universal/images/transparent.png" />Post a Comment</a></span> |  <span class="share-item"><a href="javascript:noop();" onclick="Squarespace.Interaction.shareLink(this,'%2Fblog%2Fcrawl-part-1-hex19-playdate.html','Crawl%20Part%201%20-%20Hex19%20Playdate');"> <img title="Share Article" alt="Share Article" class="inline-icon share-icon" rel="0" src="/universal/images/transparent.png" />Share Article </a></span> </div>
+      <div class="journal-entry-tag-post-body-line3"></div>
+    </div>
+  
+  
+  <div class="clearer"></div>
+
+</div>
+</div>
+
+
+
+
+
+
+
+<div class="journal-entry-wrapper post-text authored-by-tgweekly category-video-games category-videos">
+<div id="item35046357" class="journal-entry">
+
+  <div class="journal-entry-float-day"><span class="name">Monday</span></div><div class="journal-entry-float-date"><span class="month">Sep</span><span class="date">22</span><span class="year">2014</span></div>
+  
+  
+  
+  <div class="journal-entry-text">
+  
+      
+      <h2 class="title">
+    
+        
+    
+        <a class="journal-entry-navigation-current" href="/blog/nhl-15-calgary-vs-canada-hex19-playdate.html">NHL 15 Calgary vs. ...Canada? - Hex19&nbsp;Playdate</a>  
+     
+         
+    
+      </h2>
+      
+       <div class="journal-entry-tag journal-entry-tag-post-title"><span class="posted-on">   <img title="Date" alt="Date" class="inline-icon date-icon" rel="0" src="/universal/images/transparent.png" />September 22, 2014 at 6:14 PM</span> |  <span class="posted-by">  <a href="/blog/author/tgweekly"> <img title="Author" alt="Author" class="inline-icon user-registered-icon" rel="0" src="/universal/images/transparent.png" />Hex19</a></span> <span class="posted-in"> <span class="tag-element"><a rel="tag" href="/blog/category/video-games"> <img title="Category" alt="Category" class="inline-icon category-icon" rel="0" src="/universal/images/transparent.png" />Video Games</a></span> <span class="tag-element"><a rel="tag" href="/blog/category/videos"> <img title="Category" alt="Category" class="inline-icon category-icon" rel="0" src="/universal/images/transparent.png" />Videos</a></span></span>  </div> 
+
+    
+  
+      
+      <div class="body">
+  
+        
+        
+        
+          <p><span><iframe width="650" height="398" src="//www.youtube.com/embed/8HIRyNsi68c" frameborder="0" allowfullscreen></iframe><br />Hex19's Glenn, Brett and Yuri take control of Team Canada and face off against the Calgary Flames in an untraditional NHL 15 matchup. Watch as they work together to bring some pain to Alberta's most hated city. The results are, well, unexpected. Again, this NHL video was plauged by some audio issues - we hope it doesn't diminish your enjoyment of the coolest sport on earth.</span></p>
+
+        
+  
+          
+  
+         
+  
+      </div>
+
+    
+
+  </div>
+
+      <div class="journal-entry-tag journal-entry-tag-post-body">
+      <div class="journal-entry-tag-post-body-line1"><span class="tagged-with">tagged:  <span class="tag-element"><a rel="tag" href="/blog/tag/ea-sports"> <img title="Tag" alt="Tag" class="inline-icon tag-icon" rel="0" src="/universal/images/transparent.png" />EA Sports</a></span>, <span class="tag-element"><a rel="tag" href="/blog/tag/hockey"> <img title="Tag" alt="Tag" class="inline-icon tag-icon" rel="0" src="/universal/images/transparent.png" />Hockey</a></span>, <span class="tag-element"><a rel="tag" href="/blog/tag/nhl-15"> <img title="Tag" alt="Tag" class="inline-icon tag-icon" rel="0" src="/universal/images/transparent.png" />NHL 15</a></span>, <span class="tag-element"><a rel="tag" href="/blog/tag/playdate"> <img title="Tag" alt="Tag" class="inline-icon tag-icon" rel="0" src="/universal/images/transparent.png" />Playdate</a></span>, <span class="tag-element"><a rel="tag" href="/blog/tag/xbox-one"> <img title="Tag" alt="Tag" class="inline-icon tag-icon" rel="0" src="/universal/images/transparent.png" />Xbox One</a></span></span>  </div>
+      <div class="journal-entry-tag-post-body-line2"><span class="post-comments"><a href="/blog/nhl-15-calgary-vs-canada-hex19-playdate.html#comments"> <img title="Comment" alt="Comment" class="inline-icon comment-icon" rel="0" src="/universal/images/transparent.png" />Post a Comment</a></span> |  <span class="share-item"><a href="javascript:noop();" onclick="Squarespace.Interaction.shareLink(this,'%2Fblog%2Fnhl-15-calgary-vs-canada-hex19-playdate.html','NHL%2015%20Calgary%20vs.%20...Canada%3F%20-%20Hex19%20Playdate');"> <img title="Share Article" alt="Share Article" class="inline-icon share-icon" rel="0" src="/universal/images/transparent.png" />Share Article </a></span> </div>
+      <div class="journal-entry-tag-post-body-line3"></div>
+    </div>
+  
+  
+  <div class="clearer"></div>
+
+</div>
+</div>
+
+
+
+
+
+    
+    
+  </div>
+
+  
+  <div  class="paginationControlWrapper journal-navigation" >
+
+    <!-- 1 - 10 of 350 (page 1 of 35) -->
+
+    <span class="paginationControlPrefix">
+      
+              Page
+       
+    </span>
+    
+    
+
+    
+              <a class="paginationPageNumber activePage" href="javascript:noop();">1</a>
+      
+    
+              <a class="paginationPageNumber"  href="/blog/?currentPage=2" >2</a>
+      
+    
+              <a class="paginationPageNumber"  href="/blog/?currentPage=3" >3</a>
+      
+    
+              <a class="paginationPageNumber"  href="/blog/?currentPage=4" >4</a>
+      
+    
+              <a class="paginationPageNumber"  href="/blog/?currentPage=5" >5</a>
+      
+     
+
+          <span class="paginationEllipsis">...</span> <a class="paginationPageNumber"  href="/blog/?currentPage=35" >35</a>
+    
+
+          <span class="paginationControlNextPageSuffix">
+        <a  href="/blog/?currentPage=2" >
+          Older Posts »
+        </a>
+      </span>
+    
+    
+    
+
+  </div>
+
+
+
+  
+
+
+</div></div> <!-- Content -->
+  
+    
+  
+    </div></div> <!-- Page Body -->
+
+    
+    
+    <div id="pageFooterWrapper"><div id="pageFooter">
+  
+              <small><a href="http://www.squarespace.com/">Powered by Squarespace</a> | <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.5/ca/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/2.5/ca/80x15.png" /></a><br /><span xmlns:dc="http://purl.org/dc/elements/1.1/" href="http://purl.org/dc/dcmitype/Sound" property="dc:title" rel="dc:type">Hex19</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.hex19.com" property="cc:attributionName" rel="cc:attributionURL">Brett Commandeur, Yuri Walkiw, Aaron Raham and Glenn Meyer</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.5/ca/">Creative Commons Attribution-Noncommercial-Share Alike 2.5 Canada License</a>.<br/>
+The Hex19 Geekcast is recorded and produced in St. Albert, AB, Canada.</small>
+      
+  
+      
+  
+    </div></div>
+  
+  </div></div> <!-- Canvas -->
+  
+   
+
+
+  <div class="clearer" id="bodyClearer"></div>
+
+  
+
+
+
+</body>
+</html>
